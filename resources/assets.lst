@@ -1,0 +1,61 @@
+# resources file
+#
+
+tex 0 t1.png                      # movimientos de Phil
+
+img 0 0 0 58 43 20 0 21 21 7 -7         # andar 1
+img 1 59 0 55 48 19 0 18 27 7 -2        # andar 2
+img 2 115 0 54 44 19 0 24 24 7 -8       # andar 3
+img 3 170 0 54 49 18 0 18 27 7 -4       # andar 4
+img 4 0 48 50 49 41 6 14 36 11 1        # preparar golpe
+img 5 53 48 80 44 9 4 63 18 2 -3        # golpe
+img 6 137 48 54 49 16 4 14 37 6 1       # cansado   aun no esta programado
+img 7 202 48 48 54 31 5 14 37 8 0       # apartarse
+img 8 0 103 55 44 18 0 15 33 6 0        # salto preparar
+img 9 56 103 49 44 12 0 23 23 4 -8      # en salto
+img 10 106 103 57 44 23 0 14 36 6 0     # cayendo en salto  no la uso ahora mismo
+img 11 165 103 51 49 18 1 14 38 6 0     # parado
+img 12 0 153 50 49 14 0 14 38 7 1       # inicio caida   no la uso ahora mismo
+img 13 53 153 61 49 13 12 33 17 8 -14   # en caida
+img 14 116 153 86 29 31 2 37 16 8 -1    # en el suelo
+img 15 218 103 28 49 14 0 14 38 7 1     # cogiendo alimentos
+
+tex 1 t2.png                      # resto de personajes
+
+img 16 0 0 56 99 30 0 17 88 9 -1        # peregrino 1 andar 1
+img 17 57 0 51 96 29 0 17 88 8 2        # peregrino 1 andar 2
+img 18 109 0 57 97 29 0 17 88 8 1       # peregrino 1 andar 3
+img 19 167 0 47 98 27 0 17 88 8 0       # peregrino 1 andar 4
+img 20 0 100 104 72 64 7 15 40 3 1      # peregrino 1 sentado
+img 21 215 0 65 99 27 0 26 85 14 1      # bordonero 1 andar 1
+img 22 281 0 51 99 25 0 26 85 14 1      # bordonero 1 andar 2
+img 23 333 0 67 99 26 0 26 85 14 1      # bordonero 1 andar 3
+img 24 401 0 50 99 24 0 26 85 13 1      # bordonero 1 andar 4
+img 25 401 102 110 98 48 0 37 77 11 -3  # bordonero 1 golpeado 1
+img 26 298 102 100 68 47 2 38 45 21 2   # bordonero 1 golpeado 2
+img 27 107 100 68 99 34 1 14 77 8 1     # peregrino 1 golpeado 1
+img 28 178 100 51 69 27 4 20 45 11 1    # peregrino 1 golpeado 2
+img 29 1 200 93 78 46 0 90 36 45 -2     # bicicleta 1
+img 30 96 200 93 78 47 0 90 36 45 -2    # bicicleta 2
+
+tex 2 t3.png                       # objetos del decorado
+
+img 31 472 0 38 37 19 19 33 32 16 16    # comida 1
+img 32 448 0 23 29 12 14 20 19 10 14    # comida 2
+fnd 0 456 38 54 29                      # Bocina
+fnd 1 0 0 285 96                        # Casas 1
+fnd 2 0 112 296 137                     # arbol 1
+fnd 3 297 71 214 178                    # arbol 2
+fnd 4 0 255 491 256                     # fondo interminable
+
+snd 0 golpe_acierto.wav
+snd 1 golpe_fallo.wav
+snd 2 paso_bici.wav
+snd 3 peregrino_1.wav
+snd 4 salto_1.wav
+snd 5 caida.wav
+snd 6 GameOver.wav
+
+mus 0 Tema.wav
+mus 1 Menu.wav
+

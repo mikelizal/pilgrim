@@ -1,0 +1,150 @@
+# resources file
+#
+
+tex 0 t1x2.png                                 # movimientos de Phil          
+ 
+img 0 0 10 149 111 54 0 46 46 11 -24           # andar 1
+img 1 151 0 134 121 42 0 46 46 12 -18          # andar 2
+img 2 288 10 139 111 48 0 46 46 10 -24         # andar 3
+img 3 428 0 134 123 43 0 46 46 13 -24          # andar 4
+img 4 2 256 154 149 105 19 50 82 15 -1         # preparar golpe
+img 5 160 256 221 121 49 -9 194 24 22 -40      # golpe
+img 6 285 557 141 124 46 10 50 57 25 -4        # cansado   aun no esta programado
+img 7 3 553 113 133 71 12 50 57 28 -12         # apartarse
+img 8 3 128 146 113 47 0 50 57 26 -14          # salto preparar
+img 9 158 128 136 124 41 0 50 57 8 -11         # en salto
+img 10 311 128 148 114 79 0 50 57 50 -13       # cayendo en salto  no la uso ahora mismo
+img 11 138 553 132 123 56 2 50 57 36 -12       # parado
+img 12 7 408 137 134 24 0 50 57 4 -20          # inicio caida   no la uso ahora mismo
+img 13 152 408 154 120 57 0 50 57 22 -47       # en caida
+img 14 311 408 216 73 86 5 50 57 19 2          # en el suelo
+img 15 460 536 128 138 101 14 128 138 0 0      # tumba
+
+tex 1 t2x2.png                                 # resto de personajes          
+
+img 16 0 0 114 199 48 0 46 124 12 -19          # peregrino 1 andar 1
+img 17 115 0 103 193 52 0 46 124 20 -15        # peregrino 1 andar 2
+img 18 219 0 114 197 57 0 46 124 22 -19        # peregrino 1 andar 3
+img 19 334 0 95 198 49 0 46 124 22 -17         # peregrino 1 andar 4
+img 20 0 200 162 149 68 15 30 79 -24 -1        # peregrino 1 sentado
+img 21 432 0 129 199 37 0 48 147 20 -14        # bordonero 1 andar 1
+img 22 562 0 103 199 41 0 48 147 20 -13        # bordonero 1 andar 2
+img 23 666 0 136 199 39 0 48 147 16 -17        # bordonero 1 andar 3
+img 24 803 0 99 199 40 0 48 147 18 -16         # bordonero 1 andar 4
+img 25 801 206 222 196 109 0 48 147 32 -13     # bordonero 1 golpeado 1
+img 26 597 203 200 137 96 1 73 97 37 -1        # bordonero 1 golpeado 2
+img 27 213 200 138 199 64 0 46 143 20 -12      # peregrino 1 golpeado 1
+img 28 358 200 101 138 51 9 46 86 21 0         # peregrino 1 golpeado 2
+img 29 0 400 187 158 94 0 164 62 74 -35        # bicicleta 1
+img 30 195 406 180 152 91 0 164 62 83 -36      # bicicleta 2
+
+tex 2 t3x2.png                                 # objetos del decorado          
+
+img 31 940 13 62 61 31 30 45 42 21 22          # comida 1 queso
+img 32 884 17 47 61 24 30 36 37 18 25          # comida 2 manzana
+img 33 819 8 53 70 27 35 36 45 17 30           # comida 3 pera
+img 34 734 5 77 74 39 37 61 42 31 30           # comida 4 platano
+img 35 651 21 79 57 40 28 65 45 33 21          # comida 5 chuleta
+img 36 570 21 80 53 40 26 66 41 34 20          # comida 6 carne
+fnd 0 909 78 112 59 56 0                       # bocina
+fnd 1 0 0 570 192 325 0                        # casas 1
+fnd 2 1 220 596 287 386 0                      # arbol 1
+fnd 3 579 140 444 367 216 0                    # arbol 2
+fnd 4 3 511 981 513 621 0                      # fondo interminable
+
+tex 3 t4x2.png                                 # objetos del decorado
+
+img 37 844 171 56 56 28 28 56 56 28 28         # vida powerup
+
+fnd 5 0 0 929 141 465 0                        # suelo interminable
+fnd 6 0 142 289 94 65 0                        # nube 1
+fnd 7 290 142 192 78 90 0                      # nube 2
+fnd 8 290 221 145 33 70 0                      # nube 3
+fnd 9 933 2 87 62 43 0                         # btn_esquivar
+fnd 10 942 68 57 66 29 0                       # btn_pegar
+fnd 11 942 136 61 49 31 0                      # btn_saltar
+fnd 12 947 188 59 57 30 0                      # btn_andar
+fnd 13 543 158 249 77 125 0                    # marcador
+fnd 14 844 171 56 56 28 0                      # vida
+fnd 15 480 265 89 110 45 0                     # btn_pausa
+fnd 16 480 384 89 90 45 0                      # btn_avanzar
+fnd 17 482 480 89 90 45 0                      # btn_retroceder
+fnd 18 6 583 249 127 125 0                     # btn_resume
+fnd 19 283 583 173 127 87 0                    # btn_quit
+fnd 20 599 262 93 84 48 0                      # icono_distancia
+fnd 21 602 359 74 87 37 0                      # icono_tiempo
+fnd 22 714 278 101 27 51 0                     # icono_velocidad
+fnd 23 844 291 128 44 64 0                     # icono_caidas
+fnd 24 714 320 66 90 33 0                      # icono_golpes peregrinos
+fnd 25 633 447 114 78 57 0                     # icono_golpes bordoneros
+fnd 26 832 360 50 47 25 0                      # icono_frutas
+fnd 27 822 429 55 39 28 0                      # icono_carne
+fnd 28 0 268 456 302 228 0                     # menu_pause
+fnd 29 498 608 71 87 36 0                      # menu_sound_on
+fnd 30 595 608 103 88 50 0                     # menu_sound_off
+fnd 31 752 600 100 100 0 0                     # boton gamecenter leaderboards
+fnd 32 870 600 100 100 0 0                     # boton gamecenter achievments
+
+tex 4 t5x2.png                                 # etiquetas          
+
+lbl 0 0 0 37 62 19 20                          #0
+lbl 1 38 0 37 62 19 20                         #1
+lbl 2 76 0 37 62 19 20                         #2
+lbl 3 114 0 37 62 19 20                        #3
+lbl 4 152 0 37 62 19 20                        #4
+lbl 5 190 0 37 62 19 20                        #5
+lbl 6 228 0 37 62 19 20                        #6
+lbl 7 266 0 37 62 19 20                        #7
+lbl 8 304 0 37 62 19 20                        #8
+lbl 9 342 0 37 62 19 20                        #9
+lbl 10 380 0 37 62 19 20                       #:
+lbl 11 418 0 37 62 19 20                       #,
+lbl 12 456 0 37 62 19 20                       #.
+lbl 13 0 315 189 62 95 18                      #Score
+lbl 14 190 315 227 62 113 18                   #Energy
+lbl 15 0 442 511 69 253 7                      #Game Over << no usada ahora
+
+tex 5 t6x2.png                                 # pantallas de titulo y menus
+
+# en los fondos yo solo leo los 5 primeros numeros
+fnd 33 0 0 960 640 0 0                         # fondo menus   
+fnd 34 960 0 960 640 479 320                   # pantalla de carga
+fnd 35 0 640 870 532 0 0                       # phil menus
+fnd 36 960 640 960 640 249 166                 # instrucciones 2
+fnd 37 960 1280 960 640 249 166                # instrucciones 3
+fnd 38 66 1209 220 202 209 54                  # banner
+fnd 39 115 1496 153 97 0 0                     # menu play
+fnd 40 102 1603 151 100 0 0                    # menu help
+fnd 41 94 1723 203 101 0 0                     # menu highscores
+fnd 42 104 1839 121 101 0 0                    # menu credits
+fnd 43 312 1458 243 133 0 0                    # go!
+fnd 44 590 1477 350 94 0 0                     # ready
+fnd 45 317 1638 601 94 0 0                     # game over
+fnd 46 352 1788 158 138 0 0                    # circulo
+fnd 47 960 0 960 640 249 166                   # instrucciones 1
+fnd 48 403 1329 491 64 0 0                     # hall_of_fame
+
+tex 6 t7x2.png                                 # pantallas de titulo y menus
+
+fnd 49 0 7 981 513 621 0                       # fondo interminable 2
+fnd 50 40 560 340 390 0 0                      # transicion fondo 1->2
+fnd 51 380 560 340 390 0 0                     # transicion fondo 2->1
+
+
+snd 0 golpe_acierto.wav
+snd 1 golpe_fallo.wav
+snd 2 paso_bici.wav
+snd 3 peregrino_1.wav
+snd 4 salto_4.wav
+snd 5 caida.wav
+snd 6 GameOver.wav
+snd 7 bocina_bici.wav
+snd 8 tac.wav
+snd 9 salto_3.wav   # esto es el que uso para comer
+snd 10 beep.wav
+
+mus 0 Salida.wav
+mus 1 Tema.wav
+mus 2 Menu.wav
+mus 3 Menu2.wav
+

@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'Pilgrim' target in the 'Pilgrim' project
+//
+
+#import <TargetConditionals.h>
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
+
+
+#endif
